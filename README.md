@@ -16,14 +16,14 @@ sudo bash ready.sh
 
 2. Ready target or target group for ELB
  -  ALB
-   - Traffic port: HTTP 80
-   - Healthcheck: HTTP 8080 /
+    - Traffic port: HTTP 80
+    - Healthcheck: HTTP 8080 /
  -  NLB
-   - Traffic port: TCP 80
-   - Healthcheck: TCP 8080
+    - Traffic port: TCP 80
+    - Healthcheck: TCP 8080
  -  CLB
-   - Traffic port: HTTP 80
-   - Healthcheck: HTTP 8080 /
+    - Traffic port: HTTP 80
+    - Healthcheck: HTTP 8080 /
 
 3. Access ELB
 ```
