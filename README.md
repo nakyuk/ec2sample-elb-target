@@ -37,7 +37,7 @@ sudo dnf -y install httpd
 wget https://github.com/nakyuk/ec2sample-elb-target/archive/refs/heads/main.zip
 unzip main.zip
 cd ec2sample-elb-target-main/
-sudo bash ready.sh
+sudo bash setup.sh
 ```
 
 **Instance Requirements:**
