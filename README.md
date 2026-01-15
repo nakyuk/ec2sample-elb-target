@@ -129,6 +129,6 @@ elb-target-ec2/
 │   └── timeout/
 │       └── timeout.cgi     # CGI script for timeout testing
 ├── httpd.conf              # Apache configuration
-├── ready.sh                # Setup script
+├── setup.sh                # Setup script
 └── README.md
 ```
